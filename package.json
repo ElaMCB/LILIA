@@ -1,0 +1,183 @@
+{
+  "name": "lilia",
+  "displayName": "LILIA - Custom AI IDE with Agent System",
+  "description": "Your customized AI IDE with multiple specialized agents",
+  "version": "0.1.0",
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Machine Learning",
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "lilia.agentPanel",
+        "title": "Show Agent Panel"
+      },
+      {
+        "command": "lilia.codeReview",
+        "title": "Code Review: Review Current File"
+      },
+      {
+        "command": "lilia.codeReviewSelection",
+        "title": "Code Review: Review Selection"
+      },
+      {
+        "command": "lilia.generateTests",
+        "title": "Test Generator: Generate Tests for File"
+      },
+      {
+        "command": "lilia.securityScan",
+        "title": "Security Agent: Scan File"
+      },
+      {
+        "command": "lilia.documentationGenerate",
+        "title": "Documentation Agent: Generate Docs"
+      },
+      {
+        "command": "lilia.agentChat",
+        "title": "Agent Chat: Talk to Agent"
+      }
+    ],
+    "views": {
+      "explorer": [
+        {
+          "id": "liliaAgentPanel",
+          "name": "LILIA Agents",
+          "when": "true"
+        }
+      ]
+    },
+    "menus": {
+      "editor/context": [
+        {
+          "command": "lilia.codeReviewSelection",
+          "when": "editorHasSelection",
+          "group": "lilia"
+        },
+        {
+          "command": "lilia.codeReview",
+          "when": "editorTextFocus",
+          "group": "lilia"
+        },
+        {
+          "command": "lilia.generateTests",
+          "when": "editorTextFocus",
+          "group": "lilia"
+        },
+        {
+          "command": "lilia.securityScan",
+          "when": "editorTextFocus",
+          "group": "lilia"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "lilia.agentPanel",
+          "when": "true"
+        },
+        {
+          "command": "lilia.codeReview",
+          "when": "true"
+        },
+        {
+          "command": "lilia.codeReviewSelection",
+          "when": "true"
+        },
+        {
+          "command": "lilia.generateTests",
+          "when": "true"
+        },
+        {
+          "command": "lilia.securityScan",
+          "when": "true"
+        },
+        {
+          "command": "lilia.documentationGenerate",
+          "when": "true"
+        },
+        {
+          "command": "lilia.agentChat",
+          "when": "true"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "LILIA",
+      "properties": {
+        "lilia.ai.provider": {
+          "type": "string",
+          "enum": [
+            "ollama",
+            "huggingface",
+            "openai"
+          ],
+          "default": "ollama",
+          "description": "AI Provider to use"
+        },
+        "lilia.ai.ollama.baseUrl": {
+          "type": "string",
+          "default": "http://localhost:11434",
+          "description": "Ollama base URL"
+        },
+        "lilia.ai.ollama.model": {
+          "type": "string",
+          "default": "llama2",
+          "description": "Ollama model name"
+        },
+        "lilia.ai.huggingface.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "Hugging Face API Key"
+        },
+        "lilia.ai.openai.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "OpenAI API Key"
+        },
+        "lilia.agents.enabled": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "codeReview",
+            "testGenerator",
+            "security",
+            "documentation"
+          ],
+          "description": "List of enabled agents"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js",
+    "generate-icon": "node scripts/generate-icon.js",
+    "generate-favicons": "node scripts/generate-favicons.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/vscode": "^1.85.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.2"
+  }
+}
+
