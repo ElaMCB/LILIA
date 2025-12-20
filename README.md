@@ -6,6 +6,8 @@
   **LILIA** is a highly customizable VS Code extension that provides an AI-powered development environment with multiple specialized agents working together.
 </div>
 
+> Initial spark: LILIA 0.1 – exiled code, beautiful terminal.
+
 ## 🌟 Features
 
 ### Core Architecture
