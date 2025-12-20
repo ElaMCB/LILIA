@@ -10,38 +10,37 @@
 
 ## Features
 
-### Core Architecture
-- **Agent System**: Multiple specialized AI agents that can work independently or collaborate
-- **Agent Manager**: Intelligent routing and orchestration of agent requests
-- **Agent Memory**: Context-aware agents that learn from your codebase
-- **Multi-Agent Collaboration**: Agents can consult each other for complex tasks
+### Your Agent Army
 
-### Available Agents
+Think of LILIA as your personal development team—except these teammates never sleep, never complain, and actually understand your codebase. Each agent specializes in what they do best, and they're not afraid to talk to each other when things get complex.
+
+**The Orchestrator**: A smart manager that routes your requests to the right agent, remembers context across sessions, and coordinates multi-agent missions when you need the whole team.
+
+**Agent Memory**: Your agents learn. They remember patterns in your code, your preferences, and the context of your project. Every interaction makes them better at helping you.
+
+**Collaboration**: When one agent hits a wall, they call in backup. Security Agent needs Code Review's insights? They talk. Documentation Agent needs Test Generator's test cases? They collaborate. It's like having a team that actually communicates.
+
+### The Agents
 
 #### Code Review Agent
-- Reviews code for quality, best practices, and potential bugs
-- Provides actionable feedback with line-specific suggestions
-- Detects security issues, performance problems, and code smells
+Your code's first critic—and its best friend. Catches bugs before they become problems, spots security holes before they become vulnerabilities, and suggests improvements that actually make sense. It's like pair programming with someone who never gets tired and always remembers best practices.
 
 #### Test Generator Agent (Coming Soon)
-- Generates unit tests from code
-- Creates integration test suites
-- Suggests test scenarios
+Tired of writing tests? This agent reads your code and writes tests that actually matter. Not just coverage—real, meaningful tests that catch real bugs. It thinks like a developer, not a code generator.
 
 #### Security Agent (Coming Soon)
-- Scans code for vulnerabilities
-- Checks for security best practices
-- Identifies potential exploits
+Your code's security guard. It doesn't just scan—it understands context, recognizes patterns, and spots vulnerabilities that automated scanners miss. It knows the difference between "this is fine" and "this will get you hacked."
 
 #### Documentation Agent (Coming Soon)
-- Auto-generates documentation
-- Updates existing docs
-- Creates API references
+Documentation that doesn't suck. This agent reads your code, understands what it does, and writes docs that humans can actually read. It keeps them updated, too—because docs that rot are worse than no docs at all.
 
 ### AI Providers
-- **Ollama** (Default) - Run AI models locally for privacy
-- **Hugging Face** - Free AI APIs
-- **OpenAI** - Premium AI models (optional)
+
+**Ollama** (Default) - Run everything locally. Your code stays on your machine, your data stays private. No API keys, no external calls, no privacy concerns. Just pure, local AI power.
+
+**Hugging Face** - Free APIs when you need cloud power without the cloud price tag.
+
+**OpenAI** - Premium models when you need that extra edge. Optional, but powerful.
 
 ## Getting Started
 
