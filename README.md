@@ -1,2 +1,2 @@
 # LILIA
-my own customized AI IDE
+Initial spark: LILIA 0.1 – exiled code, beautiful terminal.
