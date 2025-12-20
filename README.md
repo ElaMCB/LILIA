@@ -1,14 +1,14 @@
 # LILIA - Your Custom AI IDE with Agent System
 
 <div align="center">
-  <img src="assets/icon.png" alt="LILIA Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/ElaMCB/LILIA/main/assets/icon.png" alt="LILIA Logo" width="200"/>
   
   **LILIA** is a highly customizable VS Code extension that provides an AI-powered development environment with multiple specialized agents working together.
 </div>
 
 > Initial spark: LILIA 0.1 – exiled code, beautiful terminal.
 
-## 🌟 Features
+## Features
 
 ### Core Architecture
 - **Agent System**: Multiple specialized AI agents that can work independently or collaborate
@@ -18,22 +18,22 @@
 
 ### Available Agents
 
-#### 🤖 Code Review Agent
+#### Code Review Agent
 - Reviews code for quality, best practices, and potential bugs
 - Provides actionable feedback with line-specific suggestions
 - Detects security issues, performance problems, and code smells
 
-#### 🧪 Test Generator Agent (Coming Soon)
+#### Test Generator Agent (Coming Soon)
 - Generates unit tests from code
 - Creates integration test suites
 - Suggests test scenarios
 
-#### 🔒 Security Agent (Coming Soon)
+#### Security Agent (Coming Soon)
 - Scans code for vulnerabilities
 - Checks for security best practices
 - Identifies potential exploits
 
-#### 📚 Documentation Agent (Coming Soon)
+#### Documentation Agent (Coming Soon)
 - Auto-generates documentation
 - Updates existing docs
 - Creates API references
@@ -43,7 +43,7 @@
 - **Hugging Face** - Free AI APIs
 - **OpenAI** - Premium AI models (optional)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -101,7 +101,7 @@ Example settings.json:
 }
 ```
 
-## 📖 Usage
+## Usage
 
 ### Code Review
 
@@ -120,7 +120,7 @@ Example settings.json:
 ### Agent Panel
 
 - Open the Agent Panel via Command Palette: `Show Agent Panel`
-- Or click the `🤖 LILIA` status bar item
+- Or click the LILIA status bar item
 - View all active agents and their capabilities
 
 ### Agent Chat
@@ -129,7 +129,7 @@ Example settings.json:
 - Select an agent and ask questions
 - Agents understand code context automatically
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 LILIA Extension
@@ -153,7 +153,7 @@ LILIA Extension
     └── Command Palette Integration
 ```
 
-## 🔧 Development
+## Development
 
 ### Project Structure
 
@@ -206,9 +206,9 @@ npm run compile    # Compile TypeScript
 npm run watch      # Watch mode for development
 ```
 
-## 🎯 Roadmap
+## Roadmap
 
-### Phase 1: Foundation ✅
+### Phase 1: Foundation (Complete)
 - [x] VS Code extension structure
 - [x] Agent framework
 - [x] Code Review Agent
@@ -234,15 +234,15 @@ npm run watch      # Watch mode for development
 - [ ] Comprehensive documentation
 - [ ] Unit tests
 
-## 🤝 Contributing
+## Contributing
 
 This is a personal project, but suggestions and feedback are welcome!
 
-## 📝 License
+## License
 
 MIT License - feel free to customize for your needs!
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built on VS Code Extension API
 - Uses Ollama for local AI models
@@ -250,4 +250,4 @@ MIT License - feel free to customize for your needs!
 
 ---
 
-**Built with ❤️ for developers who want full control over their AI tools**
+**Code and AI as creed.**
