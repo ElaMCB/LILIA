@@ -8,6 +8,70 @@
 
 > Initial spark: LILIA 0.1 – exiled code, beautiful terminal.
 
+## Pay-wall vs. Play-wall: why I'm building LILIA
+
+Cursor is fantastic—intelligent refactor, inline chat, multi-file edits, all the buzzwords.
+
+It's also $20 / month, per user, after a brief free tier.
+
+That sounds small until you notice:
+- A junior dev in Lagos earns ~$400 / month.
+- A computer-science class in Mumbai has 120 students.
+- A hobbyist in rural Arkansas already pays $80 / month for home fibre.
+
+Suddenly "just $20" becomes a gate, not a convenience.
+
+### 🔒 What the pay-wall really does
+
+**Rations talent**  
+Great coders are born everywhere, but AI assistance is now a productivity multiplier. Forcing them to choose between food and autocomplete is an ethical regression.
+
+**Kills side-projects**  
+The next Django, FastAPI or Pandas often starts at 2 a.m. in a dorm. If the IDE meter is running, experimentation stops early.
+
+**Ships your code to someone else's cloud**  
+Most paid AI-IDEs send full file context to external endpoints. Trade secrets, medical, or gov-code now sit on a third-party log disk.
+
+**Creates a two-tier profession**  
+Engineers with corporate expense accounts get Copilot + Cursor + GPT-4o stacked; indie devs revert to vanilla editors. Same language, unequal weapons.
+
+### 🌱 My answer: build LILIA
+
+- **100% local-first**—Ollama, Llama-cpp or any OpenAI-compatible endpoint you point at.
+- **One-click VS Code extension**—no new editor to learn.
+- **MIT licence**—forever free, forever forkable.
+- **Plug-and-play agents**—code-review, test-gen, doc-write, security-scan; enable only what you need.
+- **No telemetry unless you opt-in**—your code never leaves your machine.
+
+### 🎯 Ethical design choices I'm baking in
+
+| Principle | LILIA approach | Cursor / paid clones |
+|-----------|----------------|----------------------|
+| Cost | Free, self-hosted | Subscription |
+| Privacy | Local inference default | Cloud inference |
+| Transparency | Open weights + open issues | Black-box models |
+| Modularity | Enable / disable each agent | Bundled features |
+| Community | Accept PRs, no CLA | Closed repo |
+
+### 🚀 Call to action
+
+- **Star or fork the repo**—signal that free, ethical AI-dev tools matter.
+- **Open issues for must-have agents**; I'll prioritise community requests over my own wish-list.
+- **Share your GPU / CPU benchmarks** so we can publish realistic local-model performance guides—proof that "free" doesn't mean "slow".
+- **If you're a student or indie, become a beta tester**—your feedback keeps the pay-wall from creeping back in disguised as "enterprise features".
+
+### 🧩 Bottom line
+
+Commercial editors can chase ARPU; we'll chase access.
+
+Because ethical AI tooling isn't a luxury—it's infrastructure for the next million developers who can't expense a subscription.
+
+Let's give them LILIA: code-assist without rent-seek, intelligence without invoices.
+
+See you in the repo.
+
+---
+
 ## Features
 
 ### Your Agent Army
