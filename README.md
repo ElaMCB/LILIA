@@ -32,7 +32,7 @@
 
 **LILIA** is an open-source, privacy-first Visual Studio Code extension that provides AI-powered development assistance through a multi-agent system. Unlike subscription-based tools like Cursor or GitHub Copilot, LILIA runs entirely locally using Ollama, ensuring complete code privacy while delivering intelligent code review, automated testing, security analysis, and documentation generation.
 
-> **Future Vision:** LILIA is evolving from a VS Code extension into a full AI-native IDE. See [VISION.md](VISION.md) and [ROADMAP.md](ROADMAP.md) for our ambitious roadmap to compete directly with Cursor and Windsurf while maintaining our core values of privacy, ethics, and accessibility.
+> **Future Vision:** LILIA is evolving from a VS Code extension into a full AI-native IDE. See [VISION.md](VISION.md) and [ROADMAP.md](ROADMAP.md) for our ambitious roadmap. Our **Sovereign Development** approach leverages DeepSeek, Kimi, and Ollama for cost-optimized, privacy-first AI assistance. See [SOVEREIGN_DESIGN.md](SOVEREIGN_DESIGN.md) and [AI_PROVIDERS.md](AI_PROVIDERS.md) for implementation details.
 
 ### Built for Global Developers
 Whether you're a student in Mumbai, a junior dev in Lagos, or a hobbyist in rural Arkansas, LILIA gives you enterprise-grade AI assistance without the enterprise price tag. We believe great coders are born everywhere, and AI assistance should be a productivity multiplier, not a privilege.
