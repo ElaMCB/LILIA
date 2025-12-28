@@ -1,10 +1,6 @@
 # LILIA - Ethical AI-Powered VS Code Extension
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ElaMCB/LILIA/main/assets/icon.png" alt="LILIA Logo" width="200"/>
-</div>
-
-<div align="center">
 
 ![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
