@@ -1,12 +1,106 @@
-# LILIA - Your Custom AI IDE with Agent System
+# 🌟 LILIA - Ethical AI-Powered VS Code Extension
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/ElaMCB/LILIA/main/assets/icon.png" alt="LILIA Logo" width="200"/>
-  
-  **LILIA** is a highly customizable VS Code extension that provides an AI-powered development environment with multiple specialized agents working together.
 </div>
 
+<div align="center">
+
+![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![AI](https://img.shields.io/badge/AI-Powered-FF6B6B?style=for-the-badge&logo=artificial-intelligence&logoColor=white)
+![Local First](https://img.shields.io/badge/Local%20First-4CAF50?style=for-the-badge&logo=home-assistant&logoColor=white)
+![MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=mit&logoColor=black)
+
+![Version](https://img.shields.io/github/package-json/v/ElaMCB/LILIA?style=flat-square&label=version)
+![License](https://img.shields.io/github/license/ElaMCB/LILIA?style=flat-square)
+![Issues](https://img.shields.io/github/issues-raw/ElaMCB/LILIA?style=flat-square&label=issues)
+![Stars](https://img.shields.io/github/stars/ElaMCB/LILIA?style=flat-square&label=stars)
+
+![Ethical AI](https://img.shields.io/badge/Ethical%20AI-9C27B0?style=flat-square&logo=shield-check&logoColor=white)
+![Open Source](https://img.shields.io/badge/Open%20Source-FF6B00?style=flat-square&logo=open-source-initiative&logoColor=white)
+![No Tracking](https://img.shields.io/badge/No%20Tracking-brightgreen?style=flat-square&logo=privacy&logoColor=white)
+![Free Forever](https://img.shields.io/badge/Free%20Forever-blue?style=flat-square&logo=freecodecamp&logoColor=white)
+
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Multi-Agent](https://img.shields.io/badge/Multi--Agent-FF9800?style=flat-square&logo=robot&logoColor=white)
+![VS Code Extension](https://img.shields.io/badge/VS%20Code%20Extension-0066CC?style=flat-square&logo=visual-studio-code&logoColor=white)
+
+</div>
+
+> **🚨 Cursor Alternative That Respects Your Privacy & Wallet**
+> 
+> Why pay $20/month when you can have **better AI assistance for free**? LILIA proves that ethical AI tooling isn't a luxury—it's infrastructure for the next million developers.
+
+## 📖 About
+
+**LILIA** is an open-source, privacy-first Visual Studio Code extension that provides AI-powered development assistance through a multi-agent system. Unlike subscription-based tools like Cursor or GitHub Copilot, LILIA runs entirely locally using Ollama, ensuring complete code privacy while delivering intelligent code review, automated testing, security analysis, and documentation generation.
+
+### 🌍 Built for Global Developers
+Whether you're a student in Mumbai, a junior dev in Lagos, or a hobbyist in rural Arkansas, LILIA gives you enterprise-grade AI assistance without the enterprise price tag. We believe great coders are born everywhere, and AI assistance should be a productivity multiplier, not a privilege.
+
+### 🔐 Privacy-First Architecture
+Your code never leaves your machine. LILIA uses local AI models through Ollama, eliminating cloud dependencies and ensuring your intellectual property, trade secrets, and sensitive code remain completely private. Perfect for government, healthcare, financial, and proprietary development.
+
+### 🤖 Multi-Agent AI System
+LILIA's orchestrated agent system provides specialized assistance:
+- **Code Review Agent** - Intelligent bug detection and improvement suggestions
+- **Test Generator Agent** - Automated test creation with meaningful coverage
+- **Security Agent** - Vulnerability scanning and security best practices
+- **Documentation Agent** - Human-readable documentation generation and maintenance
+
+### 🌟 Key Differentiators
+- **100% Local AI Processing** - No cloud dependencies, complete privacy
+- **Multi-Agent System** - Specialized AI agents for code review, testing, security & documentation
+- **Ethical AI Philosophy** - Free forever, no tracking, open-source transparency
+- **VS Code Native** - Seamless integration with your existing workflow
+- **Community-Driven** - Built by developers, for developers
+
+### 🎯 Perfect For
+- Privacy-conscious developers who want AI assistance without data exposure
+- Students and indie developers who can't afford $20/month subscriptions
+- Teams working on sensitive code that can't leave their infrastructure
+- Open-source contributors who believe in ethical AI tooling
+- Educators teaching AI-assisted development responsibly
+
 > Initial spark: LILIA 0.1 – exiled code, beautiful terminal.
+
+## 🚀 Quick Start
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/ElaMCB/LILIA.git
+cd LILIA
+
+# 2. Install dependencies
+npm install
+
+# 3. Install Ollama (for local AI)
+# Visit https://ollama.ai and install, then:
+ollama pull llama2
+
+# 4. Build the extension
+npm run compile
+
+# 5. Press F5 in VS Code to launch
+```
+
+**That's it!** LILIA is now running. See [Getting Started](#getting-started) for detailed configuration.
+
+## 🎯 What Makes LILIA Different
+
+### The Problem With Current AI Coding Tools
+- ❌ **Paywall Gatekeeping** - $20/month excludes developers in emerging markets
+- ❌ **Privacy Invasion** - Your code sent to external servers
+- ❌ **Vendor Lock-in** - Closed source, no transparency
+- ❌ **One-size-fits-all** - Generic AI without specialization
+
+### LILIA's Ethical Solution
+- ✅ **100% Free & Open Source** - MIT licensed, community-driven
+- ✅ **Local-First AI** - Ollama integration, code stays on your machine
+- ✅ **Multi-Agent Intelligence** - Specialized agents for different tasks
+- ✅ **Privacy by Design** - No telemetry unless you opt-in
+- ✅ **Developer Empowerment** - Forkable, customizable, transparent
 
 ## Pay-wall vs. Play-wall: why I'm building LILIA
 
@@ -55,10 +149,10 @@ Engineers with corporate expense accounts get Copilot + Cursor + GPT-4o stacked;
 
 ### 🚀 Call to action
 
-- **Star or fork the repo**—signal that free, ethical AI-dev tools matter.
-- **Open issues for must-have agents**; I'll prioritise community requests over my own wish-list.
-- **Share your GPU / CPU benchmarks** so we can publish realistic local-model performance guides—proof that "free" doesn't mean "slow".
-- **If you're a student or indie, become a beta tester**—your feedback keeps the pay-wall from creeping back in disguised as "enterprise features".
+- **⭐ Star or fork the repo**—signal that free, ethical AI-dev tools matter.
+- **🐛 Open issues for must-have agents**; I'll prioritise community requests over my own wish-list.
+- **📊 Share your GPU / CPU benchmarks** so we can publish realistic local-model performance guides—proof that "free" doesn't mean "slow".
+- **🧪 If you're a student or indie, become a beta tester**—your feedback keeps the pay-wall from creeping back in disguised as "enterprise features".
 
 ### 🧩 Bottom line
 
@@ -297,9 +391,37 @@ npm run watch      # Watch mode for development
 - [ ] Comprehensive documentation
 - [ ] Unit tests
 
+## 🌟 Support Ethical AI Development
+
+### Why Your Support Matters
+Every star, fork, and contribution helps us prove that ethical AI tooling can compete with venture-backed alternatives. Your support:
+
+- **Validates the mission** - Shows the world wants privacy-first AI tools
+- **Attracts contributors** - Builds momentum for community-driven development  
+- **Improves the tool** - More eyes = better code, more features, faster development
+- **Keeps it free** - Community support prevents the need for paywalls
+
+### Get Involved
+- ⭐ **Star the repo** - Takes 2 seconds, helps immensely
+- 🍴 **Fork & contribute** - Code, docs, or ideas all welcome
+- 🐛 **Report issues** - Help us build what you actually need
+- 📢 **Spread the word** - Share with developers who need free AI tools
+- 💬 **Join discussions** - Shape the future of ethical AI tooling
+
+**[⭐ Star LILIA](https://github.com/ElaMCB/LILIA)** • **[🚀 Try it now](#getting-started)** • **[🤝 Contribute](#contributing)**
+
 ## Contributing
 
-This is a personal project, but suggestions and feedback are welcome!
+This is a personal project, but suggestions and feedback are welcome! We're building LILIA to be community-driven and ethical from the ground up.
+
+### How to Contribute
+1. **Code Contributions** - Fork, make changes, submit a PR
+2. **Documentation** - Improve docs, add examples, fix typos
+3. **Feature Requests** - Open an issue with your ideas
+4. **Bug Reports** - Help us catch and fix issues
+5. **Testing** - Try LILIA and share your experience
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## License
 
